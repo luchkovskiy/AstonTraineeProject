@@ -26,4 +26,6 @@ public class PropertiesManager {
     @Value("${POSTGRES_DRIVER_NAME}")
     private String driverName;
 
+    private Integer poolSize;
+
 }
